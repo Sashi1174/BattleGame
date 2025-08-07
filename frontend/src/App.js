@@ -222,7 +222,7 @@ function App() {
       <ToastContainer />
       <div style={{ display: 'flex' }}>
         {step === 3 && currentPlayer && (
-          <div style={{
+          <div style = {{
             width: '220px',
             background: '#1e1e1e',
             color: '#fff',

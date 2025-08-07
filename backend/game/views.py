@@ -39,7 +39,6 @@ def register_user(request):
         'East':  (7, 0, 9, 9),
         'West':  (0, 0, 2, 9),
     }
-
     if zone not in zone_bounds:
         return Response({'error': 'Invalid zone'}, status=400)
 
